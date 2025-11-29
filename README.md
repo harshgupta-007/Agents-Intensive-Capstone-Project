@@ -6,6 +6,9 @@ An intelligent agent powered by Google's Gemini models designed to analyze and s
 
 Power system operators and analysts deal with massive amounts of SCADA (Supervisory Control and Data Acquisition) data daily. Identifying trends, detecting anomalies (like sudden demand drops), and comparing historical data (e.g., "Diwali 2023 vs 2024") requires complex SQL queries or manual spreadsheet analysis. This process is time-consuming, error-prone, and requires technical expertise that not all stakeholders possess.
 
+## Note on Data:
+The SCADA data used in this project is synthetic but is designed to mimic the structure and characteristics of actual power system data (demand, frequency, generation) to demonstrate the agent's capabilities realistically.
+
 ## 💡 Solution
 
 The **SCADA Summary Agent** is an intelligent, LLM-powered assistant that democratizes access to power system data. It allows users to ask natural language questions like *"What was the peak demand yesterday?"* or *"Compare the load profile of last Sunday with the previous one."*
@@ -166,3 +169,4 @@ scada-agent-project/
 ├── requirements.txt           # Project dependencies
 └── README.md                  # Project documentation
 ```
+
