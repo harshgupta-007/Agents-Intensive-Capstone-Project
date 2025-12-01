@@ -8,6 +8,7 @@ Power system operators and analysts deal with massive amounts of SCADA (Supervis
 
 ## Note on Data:
 The SCADA data used in this project is synthetic but is designed to mimic the structure and characteristics of actual power system data (demand, frequency, generation) to demonstrate the agent's capabilities realistically.
+Python file stored in data folder of the repository.
 
 ## 💡 Solution
 
@@ -169,4 +170,5 @@ scada-agent-project/
 ├── requirements.txt           # Project dependencies
 └── README.md                  # Project documentation
 ```
+
 
